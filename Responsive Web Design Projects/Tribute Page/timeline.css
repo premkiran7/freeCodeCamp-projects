@@ -1,0 +1,96 @@
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.timeline ul li {
+  margin-bottom: 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.point {
+  min-width: 20px;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 100%;
+  z-index: 2;
+  border: 3px #333333 solid;
+  position: absolute;
+  left: 48.5%;
+}
+
+.timeline ul li .content {
+  width: 50%;
+  padding: 0 20px;
+}
+
+.timeline ul li:nth-child(odd) .content {
+  padding-left: 0;
+}
+
+.timeline ul li:nth-child(even) .content {
+  padding-right: 0;
+}
+
+.timeline ul li .content h4 {
+  padding: 10px 20px;
+  background-color: white;
+  margin-bottom: 0;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.timeline ul li .content p {
+  padding: 10px 20px;
+  background-color: white;
+  margin-top: 0;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.timeline ul li:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 3px;
+  left: 50%;
+  background-color: #333333;
+}
+
+@media (max-width: 450px) {
+  .timeline {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .timeline {
+    font-size: 14px;
+  }
+
+  .point {
+    min-width: 12px;
+    height: 12px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .point {
+    min-width: 15px;
+    height: 15px;
+  }
+
+  .timeline {
+    font-size: 15px;
+  }
+}

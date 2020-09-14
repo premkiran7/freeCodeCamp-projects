@@ -11,14 +11,6 @@ html {
     "Helvetica Neue", Arial, sans-serif;
 }
 
-/* header,
-section,
-figure,
-blockquote,
-footer {
-  border: 3px solid black;
-} */
-
 #page-header {
   grid-area: header;
 }
@@ -28,7 +20,7 @@ footer {
 }
 
 #page-header h2 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 #img-div {
@@ -38,26 +30,40 @@ footer {
 
 #img-div figcaption {
   text-align: center;
+  margin: 2% 5% 6% 5%;
+  padding: 0 auto;
 }
 
 #image {
   width: 90%;
-  height: 90%;
+  height: 92%;
   margin: 0 auto;
   object-fit: cover;
   display: block;
   object-position: 30%;
   /* max-width: 499px; */
-  /* max-height: 304px; */
 }
 
 #tribute-info {
   grid-area: timeline;
-  max-height: 100%;
+}
+
+#tribute-info > h3 {
+  text-align: center;
+  font-size: 25px;
+  padding: 0 0 5% 0;
+}
+
+.container {
+  max-height: 120vh;
   overflow: auto;
 }
 
-#tribute-info ul {
+.timeline {
+  max-height: 100%;
+}
+
+.timeline ul {
   padding: 2% 0 0 4%;
 }
 
@@ -80,6 +86,15 @@ footer {
   grid-area: footer;
   text-align: center;
   margin: -1% 0 0 0;
+}
+
+footer p a {
+  text-decoration: none;
+  color: teal;
+}
+
+footer p a:hover {
+  color: mediumseagreen;
 }
 
 #main {
@@ -109,7 +124,7 @@ footer {
 
 @media (min-width: 1000px) {
   #main {
-    grid-template-rows: 1fr 6fr auto 1fr;
+    grid-template-rows: 0.5fr 6fr auto 1fr;
     grid-template-columns: 48%;
     grid-template-areas:
       "header timeline"
