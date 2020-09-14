@@ -29,11 +29,11 @@
 }
 
 .timeline ul li:nth-child(odd) .content {
-  padding-left: 0;
+  padding-right: 6%;
 }
 
 .timeline ul li:nth-child(even) .content {
-  padding-right: 0;
+  padding-left: 5%;
 }
 
 .timeline ul li .content h4 {
@@ -48,7 +48,7 @@
 .timeline ul li .content p {
   padding: 10px 20px;
   background-color: white;
-  margin-top: 0;
+  margin-top: 0 1%;
   text-align: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
