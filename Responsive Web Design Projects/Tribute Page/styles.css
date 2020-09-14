@@ -43,62 +43,78 @@ footer {
 #image {
   width: 90%;
   height: 90%;
-  margin: 0 5%;
+  margin: 0 auto;
   object-fit: cover;
+  display: block;
+  object-position: 30%;
+  /* max-width: 499px; */
+  /* max-height: 304px; */
 }
 
 #tribute-info {
   grid-area: timeline;
+  max-height: 100%;
+  overflow: auto;
 }
 
-/* #tribute-info ul li {
-  list-style: none;
-} */
-
-/* #tribute-info ul li::before {
-  content: "//";
-  position: relative;
-  left: -1px;
+#tribute-info ul {
+  padding: 2% 0 0 4%;
 }
-
-#tribute-info ul li::after {
-  content: "//";
-  position: relative;
-  left: -1px;
-} */
 
 blockquote {
   grid-area: quote;
   text-align: left;
   opacity: 0.8;
-  padding: 1%;
+  padding: 1% 1%;
 }
 
 blockquote p {
-  margin: 0 20%;
-  padding: 2% 2%;
-  border-radius: 5px;
+  padding: 0 2%;
 }
 
 blockquote cite {
-  margin: 0 20%;
   padding: 2% 2%;
 }
 
 footer {
   grid-area: footer;
   text-align: center;
+  margin: -1% 0 0 0;
 }
 
 #main {
   display: grid;
-  grid-template-rows: 1fr 6fr auto 1fr;
-  grid-template-columns: 48%;
+  grid-template-rows: auto;
+  grid-template-columns: auto;
   grid-gap: 1%;
   background-color: #eee;
   grid-template-areas:
-    "header timeline"
-    "figure timeline"
-    "quote quote"
-    "footer footer";
+    "header"
+    "figure"
+    "timeline"
+    "quote"
+    "footer";
+}
+
+@media (min-width: 650px) {
+  blockquote p {
+    margin: 0 20%;
+    padding: 2% 2%;
+  }
+
+  blockquote cite {
+    margin: 0 20%;
+  }
+}
+
+@media (min-width: 1000px) {
+  #main {
+    grid-template-rows: 1fr 6fr auto 1fr;
+    grid-template-columns: 48%;
+    grid-template-areas:
+      "header timeline"
+      "figure timeline"
+      "quote quote"
+      "footer footer";
+  }
 }
