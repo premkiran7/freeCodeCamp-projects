@@ -4,5 +4,5 @@ A collection of projects made while working on [freeCodeCamp certifications](htt
 
 ### Responsive Web Design Projects
 
-1. [Tribute Form](https://codepen.io/premkiran7/pen/RwayGqJ)
+1. [Tribute Page](https://codepen.io/premkiran7/pen/RwayGqJ)
 2. [Survey Form](https://codepen.io/premkiran7/pen/dyMjYBy)
