@@ -10,20 +10,22 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <img class="logo-image" src="https://upload.wikimedia.org/wikipedia/en/3/37/Jumpman_logo.svg"
-                    alt="air jordan logo">
-                <h1 class="logo-title">Air Jordan</h1>
+    <header id="header">
+        <nav id="nav-bar" class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <img id="header-img" class="logo-image"
+                        src="https://upload.wikimedia.org/wikipedia/en/3/37/Jumpman_logo.svg" alt="air jordan logo">
+                    <h1 class="logo-title">Air Jordan</h1>
+                </div>
+                <ul class="nav">
+                    <li><a class="nav-link" href="#home">Home</a></li>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#gallery">Gallery</a></li>
+                </ul>
             </div>
-            <ul class="nav">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-            </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <!-- main section -->
     <section id="home" class="section-main">
@@ -45,7 +47,7 @@
 
     <!-- section b -->
     <section id="about" class="section-b">
-        <iframe src="https://www.youtube.com/embed/lyD1vaSfdeU" frameborder="0"
+        <iframe id="video" src="https://www.youtube.com/embed/lyD1vaSfdeU" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
@@ -101,23 +103,20 @@
             <section class="subscribe">
                 <h2>Subscribe</h2>
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
-                <form name="email-form" method="POST" data-netlify="true">
+                <form id="form" name="email-form" method="POST" action="https://www.freecodecamp.com/email-submit">
                     <div class="email-form">
                         <span class="form-control-wrap">
                             <input type="email" name="email" id="email" size="40" class="form-control"
                                 placeholder="E-mail" />
                         </span>
-                        <button type="submit" value="Submit" class="form-control submit">
-                            <i class="fas fa-chevron-right"></i>
-                        </button>
+                        <input id="submit" type="submit" value="" class="form-control submit">
                     </div>
                 </form>
-                <!-- <input id="email" type="email" placeholder="E-mail"> -->
             </section>
         </div>
     </footer>
 
-    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
