@@ -10,13 +10,12 @@
 
 <body>
     <main id="main-doc">
-
         <!-- main nav bar -->
-
-        <nav id="navbar">
+        <nav id="top-navbar">
             <header>
                 <div class="logo">
-                    <img src="https://ionicframework.com/jp/docs/assets/icons/logo-react-icon.png" alt="React Logo">
+                    <img class="rotate" src="https://ionicframework.com/jp/docs/assets/icons/logo-react-icon.png"
+                        alt="React Logo">
                     <a href="" href="" class="nav-link">React</a>
                 </div>
             </header>
@@ -31,181 +30,459 @@
             </header>
         </nav>
 
-        <!-- accordion/side nav bar -->
+        <!-- sidenav and section -->
+        <div class="container">
+            <!-- accordion/side nav bar -->
+            <nav id="navbar">
+                <div class="accordion-container">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Installation</h4>
+                        </div>
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#Getting_Started">Getting Started</a></li>
+                                <li><a href="#Getting_Started">Add React to a Website</a></li>
+                                <li><a href="#Getting_Started">Create a New React App</a></li>
+                                <li><a href="#Getting_Started">CDN Links</a></li>
+                                <li><a href="#Getting_Started">Release Channels</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Main Concepts</h4>
+                        </div>
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#Try_React">Hello World</a></li>
+                                <li><a href="#Try_React">Introducing JSX</a></li>
+                                <li><a href="#Try_React">Rendering Elements</a></li>
+                                <li><a href="#Try_React">Components and Props</a></li>
+                                <li><a href="#Try_React">State and Lifecycle</a></li>
+                                <li><a href="#Try_React">Handling Events</a></li>
+                                <li><a href="#Try_React">Conditional Rendering</a></li>
+                                <li><a href="#Try_React">Lists and Keys</a></li>
+                                <li><a href="#Try_React">Forms</a></li>
+                                <li><a href="#Try_React">Lifting State Up</a></li>
+                                <li><a href="#Try_React">Composition vs Inheritance</a></li>
+                                <li><a href="#Try_React">Thinking In React</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Advanced Guides</h4>
+                        </div>
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#Learn_React">Accessibility</a></li>
+                                <li><a href="#Learn_React">Code-Splitting</a></li>
+                                <li><a href="#Learn_React">Context</a></li>
+                                <li><a href="#Learn_React">Error Boundaries</a></li>
+                                <li><a href="#Learn_React">Forwarding Refs</a></li>
+                                <li><a href="#Learn_React">Fragments</a></li>
+                                <li><a href="#Learn_React">Higher-Order Components</a></li>
+                                <li><a href="#Learn_React">Integrating with Other Libraries</a></li>
+                                <li><a href="#Learn_React">JSX In Depth</a></li>
+                                <li><a href="#Learn_React">Optimizing Performance</a></li>
+                                <li><a href="#Learn_React">Portals</a></li>
+                                <li><a href="#Learn_React">Profiler</a></li>
+                                <li><a href="#Learn_React">React Without ES6</a></li>
+                                <li><a href="#Learn_React">React Without JSX</a></li>
+                                <li><a href="#Learn_React">Reconciliation</a></li>
+                                <li><a href="#Learn_React">Refs and the DOM</a></li>
+                                <li><a href="#Learn_React">Render Props</a></li>
+                                <li><a href="#Learn_React">Static Type Checking</a></li>
+                                <li><a href="#Learn_React">Strict Mode</a></li>
+                                <li><a href="#Learn_React">Typechecking With PropTypes</a></li>
+                                <li><a href="#Learn_React">Uncontrolled Components</a></li>
+                                <li><a href="#Learn_React">Web Components</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>API Reference</h4>
+                        </div>
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#Staying_Informed">React</a></li>
+                                <li><a href="#Staying_Informed">ReactDOM</a></li>
+                                <li><a href="#Staying_Informed">ReactDOMServer</a></li>
+                                <li><a href="#Staying_Informed">DOM Elements</a></li>
+                                <li><a href="#Staying_Informed">SyntheticEvent</a></li>
+                                <li><a href="#Staying_Informed">Test Utilities</a></li>
+                                <li><a href="#Staying_Informed">Test Renderer</a></li>
+                                <li><a href="#Staying_Informed">JS Environment Requirements</a></li>
+                                <li><a href="#Staying_Informed">Glossary</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Hooks</h4>
+                        </div>
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#Versioned_Documentation">Introducing Hooks</a></li>
+                                <li><a href="#Versioned_Documentation">Hooks at a Glance</a></li>
+                                <li><a href="#Versioned_Documentation">Using the State Hook</a></li>
+                                <li><a href="#Versioned_Documentation">Using the Effect Hook</a></li>
+                                <li><a href="#Versioned_Documentation">Rules of Hooks</a></li>
+                                <li><a href="#Versioned_Documentation">Building Your Own Hooks</a></li>
+                                <li><a href="#Versioned_Documentation">Hooks API Reference</a></li>
+                                <li><a href="#Versioned_Documentation">Hooks FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Testing</h4>
+                        </div>
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#Something_Missing?">Testing Overview</a></li>
+                                <li><a href="#Something_Missing?">Testing Recipes</a></li>
+                                <li><a href="#Something_Missing?">Testing Environments</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Concurrent Mode (Experimental)</h4>
+                        </div>
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#Getting_Started">Introducing Concurrent Mode</a></li>
+                                <li><a href="#Getting_Started">Suspense for Data Fetching</a></li>
+                                <li><a href="#Getting_Started">Concurrent UI Patterns</a></li>
+                                <li><a href="#Getting_Started">Adopting Concurrent Mode</a></li>
+                                <li><a href="#Getting_Started">Concurrent Mode API Reference</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>Contributing</h4>
+                        </div>
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#Try_React">How to Contribute</a></li>
+                                <li><a href="#Try_React">Codebase Overview</a></li>
+                                <li><a href="#Try_React">Implementation Notes</a></li>
+                                <li><a href="#Try_React">Design Principles</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            <h4>FAQ</h4>
+                        </div>
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#Learn_React">AJAX and APIs</a></li>
+                                <li><a href="#Learn_React">Babel, JSX, and Build Steps</a></li>
+                                <li><a href="#Learn_React">Passing Functions to Components</a></li>
+                                <li><a href="#Learn_React">Component State</a></li>
+                                <li><a href="#Learn_React">Styling and CSS</a></li>
+                                <li><a href="#Learn_React">File Structure</a></li>
+                                <li><a href="#Learn_React">Versioning Policy</a></li>
+                                <li><a href="#Learn_React">Virtual DOM and Internals</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
 
-        <nav id="side-navbar">
-            <div class="accordion-container">
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Installation</h4>
-                    </div>
-                    <div class="accordion-body">
-                        <ul>
-                            <li><a href="">Getting Started</a></li>
-                            <li><a href="">Add React to a Website</a></li>
-                            <li><a href="">Create a New React App</a></li>
-                            <li><a href="">CDN Links</a></li>
-                            <li><a href="">Release Channels</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Main Concepts</h4>
-                    </div>
-                    <div class="accordion-body">
-                        <ul>
-                            <li><a href="">Hello World</a></li>
-                            <li><a href="">Introducing JSX</a></li>
-                            <li><a href="">Rendering Elements</a></li>
-                            <li><a href="">Components and Props</a></li>
-                            <li><a href="">State and Lifecycle</a></li>
-                            <li><a href="">Handling Events</a></li>
-                            <li><a href="">Conditional Rendering</a></li>
-                            <li><a href="">Lists and Keys</a></li>
-                            <li><a href="">Forms</a></li>
-                            <li><a href="">Lifting State Up</a></li>
-                            <li><a href="">Composition vs Inheritance</a></li>
-                            <li><a href="">Thinking In React</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Advanced Guides</h4>
-                    </div>
-                    <div class="accordion-body">
-                        <ul>
-                            <li><a href="">Accessibility</a></li>
-                            <li><a href="">Code-Splitting</a></li>
-                            <li><a href="">Context</a></li>
-                            <li><a href="">Error Boundaries</a></li>
-                            <li><a href="">Forwarding Refs</a></li>
-                            <li><a href="">Fragments</a></li>
-                            <li><a href="">Higher-Order Components</a></li>
-                            <li><a href="">Integrating with Other Libraries</a></li>
-                            <li><a href="">JSX In Depth</a></li>
-                            <li><a href="">Optimizing Performance</a></li>
-                            <li><a href="">Portals</a></li>
-                            <li><a href="">Profiler</a></li>
-                            <li><a href="">React Without ES6</a></li>
-                            <li><a href="">React Without JSX</a></li>
-                            <li><a href="">Reconciliation</a></li>
-                            <li><a href="">Refs and the DOM</a></li>
-                            <li><a href="">Render Props</a></li>
-                            <li><a href="">Static Type Checking</a></li>
-                            <li><a href="">Strict Mode</a></li>
-                            <li><a href="">Typechecking With PropTypes</a></li>
-                            <li><a href="">Uncontrolled Components</a></li>
-                            <li><a href="">Web Components</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>API Reference</h4>
-                    </div>
-                    <div class="accordion-body">
-                        <ul>
-                            <li><a href="">React</a></li>
-                            <li><a href="">ReactDOM</a></li>
-                            <li><a href="">ReactDOMServer</a></li>
-                            <li><a href="">DOM Elements</a></li>
-                            <li><a href="">SyntheticEvent</a></li>
-                            <li><a href="">Test Utilities</a></li>
-                            <li><a href="">Test Renderer</a></li>
-                            <li><a href="">JS Environment Requirements</a></li>
-                            <li><a href="">Glossary</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Hooks</h4>
-                    </div>
-                    <div class="accordion-body">
-                        <ul>
-                            <li><a href="">Introducing Hooks</a></li>
-                            <li><a href="">Hooks at a Glance</a></li>
-                            <li><a href="">Using the State Hook</a></li>
-                            <li><a href="">Using the Effect Hook</a></li>
-                            <li><a href="">Rules of Hooks</a></li>
-                            <li><a href="">Building Your Own Hooks</a></li>
-                            <li><a href="">Hooks API Reference</a></li>
-                            <li><a href="">Hooks FAQ</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Testing</h4>
-                    </div>
-                    <div class="accordion-body">
-                        <ul>
-                            <li><a href="">Testing Overview</a></li>
-                            <li><a href="">Testing Recipes</a></li>
-                            <li><a href="">Testing Environments</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Concurrent Mode (Experimental)</h4>
-                    </div>
-                    <div class="accordion-body">
-                        <ul>
-                            <li><a href="">Introducing Concurrent Mode</a></li>
-                            <li><a href="">Suspense for Data Fetching</a></li>
-                            <li><a href="">Concurrent UI Patterns</a></li>
-                            <li><a href="">Adopting Concurrent Mode</a></li>
-                            <li><a href="">Concurrent Mode API Reference</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>Contributing</h4>
-                    </div>
-                    <div class="accordion-body">
-                        <ul>
-                            <li><a href="">How to Contribute</a></li>
-                            <li><a href="">Codebase Overview</a></li>
-                            <li><a href="">Implementation Notes</a></li>
-                            <li><a href="">Design Principles</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        <h4>FAQ</h4>
-                    </div>
-                    <div class="accordion-body">
-                        <ul>
-                            <li><a href="">AJAX and APIs</a></li>
-                            <li><a href="">Babel, JSX, and Build Steps</a></li>
-                            <li><a href="">Passing Functions to Components</a></li>
-                            <li><a href="">Component State</a></li>
-                            <li><a href="">Styling and CSS</a></li>
-                            <li><a href="">File Structure</a></li>
-                            <li><a href="">Versioning Policy</a></li>
-                            <li><a href="">Virtual DOM and Internals</a></li>
-                        </ul>
-                    </div>
-                </div>
+            <!-- sections -->
+            <div class="section-container">
+
+                <section id="Getting_Started" class="main-section">
+                    <header>
+                        <h1>Getting Started</h1>
+                    </header>
+                    <p>
+                        This page is an overview of the React documentation and related resources.
+                    </p>
+                    <p>
+                        React is a JavaScript library for building user interfaces. Learn what React is all about on
+                        <a href="">our homepage</a> or <a href="">in the tutorial</a>.
+                    </p>
+                    <ul>
+                        <li><a href="">Try React</a></li>
+                        <li><a href="">Learn React</a></li>
+                        <li><a href="">Staying Informed</a></li>
+                        <li><a href="">Versioned Documentation</a></li>
+                        <li><a href="">Something Missing?</a></li>
+                    </ul>
+                </section>
+                <section id="Try_React" class="main-section">
+                    <header>
+                        <h2>
+                            Try React
+                        </h2>
+                    </header>
+                    <p>
+                        React has been designed from the start for gradual adoption, and <strong>you can use as little
+                            or
+                            as
+                            much
+                            React as you need.</strong> Whether you want to get a taste of React, add some interactivity
+                        to a
+                        simple HTML page, or start a complex React-powered app, the links in this section will help you
+                        get
+                        started.
+                    </p>
+                    <h3>
+                        Online Playgrounds
+                    </h3>
+                    <p>
+                        If you’re interested in playing around with React, you can use an online code playground. Try a
+                        Hello
+                        World template on <a href="">CodePen</a>, <a href="">CodeSandbox</a>, <a href="">Glitch</a>, or
+                        <a href="">Stackblitz</a>.
+
+                        If you prefer to use your own text editor, you can also <a href="">download this HTML file</a>,
+                        edit
+                        it,
+                        and open it from the local filesystem in your browser. It does a slow runtime code
+                        transformation,
+                        so
+                        we’d only recommend using this for simple demos.
+                    </p>
+                    <h3>
+                        Add React to a Website
+                    </h3>
+                    <p>
+                        You can <a href="">add React to an HTML page in one minute</a>. You can then either gradually
+                        expand
+                        its
+                        presence, or keep it contained to a few dynamic widgets.
+                    </p>
+                    <h3>
+                        Create a New React App
+                    </h3>
+                    <p>
+                        When starting a React project, <a href="">a simple HTML page with script tags</a> might still be
+                        the
+                        best option. It only takes a minute to set up! As your application grows, you might want to
+                        consider
+                        a
+                        more integrated setup.There are several JavaScript toolchains we recommend for larger
+                        applications.
+                        Each
+                        of them can work with little to no configuration and lets you take full advantage of the rich
+                        React
+                        ecosystem. <a href="">Learn how.</a>
+                    </p>
+                </section>
+                <section id="Learn_React" class="main-section">
+                    <header>
+                        <h2>
+                            Learn React
+                        </h2>
+                    </header>
+                    <p>
+                        People come to React from different backgrounds and with different learning styles. Whether you
+                        prefer a
+                        more theoretical or a practical approach, we hope you’ll find this section helpful.
+                    <ul>
+                        <li>
+                            If you prefer to <strong>learn by doing</strong>, start with our <a href="">practical
+                                tutorial.</a>
+
+                        </li>
+                        <li>
+                            If you prefer to <strong>learn concepts step by step</strong>, start with our <a
+                                href="">guide
+                                to
+                                main concepts</a>.
+                        </li>
+                    </ul>
+                    Like any unfamiliar technology, React does have a learning curve. With practice and some patience,
+                    you
+                    will get the hang of it.
+                    </p>
+                    <h3>
+                        First Examples
+                    </h3>
+                    <p>
+                        The <a href="">React homepage</a> contains a few small React examples with a live editor. Even
+                        if
+                        you
+                        don’t know anything about React yet, try changing their code and see how it affects the result.
+                    </p>
+                    <h3>
+                        React for Beginners
+                    </h3>
+                    <p>
+                        If you feel that the React documentation goes at a faster pace than you’re comfortable with,
+                        check
+                        out
+                        <a href="">this overview of React by Tania Rascia</a>. It introduces the most important React
+                        concepts
+                        in a detailed, beginner-friendly way. Once you’re done, give the documentation another try!
+                    </p>
+                    <h3>
+                        React for Designers
+                    </h3>
+                    <p>
+                        If you’re coming from a design background, <a href="">these resources</a> are a great place to
+                        get
+                        started.
+                    </p>
+                    <h3>
+                        JavaScript Resources
+                    </h3>
+                    <p>
+                        The React documentation assumes some familiarity with programming in the JavaScript language.
+                        You
+                        don’t
+                        have to be an expert, but it’s harder to learn both React and JavaScript at the same time.
+
+                        We recommend going through <a href="">this JavaScript overview</a> to check your knowledge
+                        level. It
+                        will take you between 30 minutes and an hour but you will feel more confident learning React.
+                    </p>
+                    <h4>
+                        Tip
+                    </h4>
+                    <p>
+                        Whenever you get confused by something in JavaScript, <a href="">MDN</a> and <a
+                            href="">javascript.info</a> are great websites to
+                        check. There are also <a href="">community support forums</a> where you can ask for help.
+                    </p>
+                    <h3>
+                        Practical Tutorial
+                    </h3>
+                    <p>
+                        If you prefer to <strong>learn by doing</strong>, check out our <a href="">practical
+                            tutorial</a>.
+                        In
+                        this tutorial, we build a tic-tac-toe game in React. You might be tempted to skip it because
+                        you’re
+                        not
+                        into building games — but give it a chance. The techniques you’ll learn in the tutorial are
+                        fundamental
+                        to building any React apps, and mastering it will give you a much deeper understanding.
+                    </p>
+                    <h3>
+                        Step-by-Step Guide
+                    </h3>
+                    <p>
+                        If you prefer to <strong>learn concepts step by step</strong>, our <a href="">guide to main
+                            concepts</a>
+                        is the best place to start.Every next chapter in it builds on the knowledge introduced in the
+                        previous
+                        chapters so you won’t miss anything as you go along.
+                    </p>
+                    <h3>
+                        Thinking in React
+                    </h3>
+                    <p>
+                        Many React users credit reading <a href="">Thinking in React</a> as the moment React finally
+                        “clicked”
+                        for them. It’s probably the oldest React walkthrough but it’s still just as relevant.
+                    </p>
+                    <h3>
+                        Recommended Courses
+                    </h3>
+                    <p>
+                        Sometimes people find third-party books and video courses more helpful than the official
+                        documentation.
+                        We maintain <a href="">a list of commonly recommended resources</a>, some of which are free.
+                    </p>
+                    <h3>
+                        Advanced Concepts
+                    </h3>
+                    <p>
+                        Once you’re comfortable with the <a href="">main concepts</a> and played with React a little
+                        bit,
+                        you
+                        might be interested in more advanced topics. This section will introduce you to the powerful,
+                        but
+                        less
+                        commonly used React features like <a href="">context</a> and <a href="">refs</a>.
+                    </p>
+                    <h3>
+                        API Reference
+                    </h3>
+                    <p>
+                        This documentation section is useful when you want to learn more details about a particular
+                        React
+                        API.
+                        For example, <a href="">React.Component API reference</a> can provide you with details on
+                        how
+                        setState()
+                        works, and what different lifecycle methods are useful for.
+                    </p>
+                    <h3>
+                        Glossary and FAQ
+                    </h3>
+                    <p>
+                        The <a href="">glossary</a> contains an overview of the most common terms you’ll see in the
+                        React
+                        documentation. There is also a FAQ section dedicated to short questions and answers about common
+                        topics,
+                        including <a href="">making AJAX requests</a>, <a href="">component state</a>, and <a
+                            href="">file
+                            structure</a>.
+                    </p>
+                </section>
+                <section id="Staying_Informed" class="main-section">
+                    <header>
+                        <h2>
+                            Staying Informed
+                        </h2>
+                    </header>
+                    <p>
+                        The <a href="">React blog</a> is the official source for the updates from the React team.
+                        Anything
+                        important, including
+                        release notes or deprecation notices, will be posted there first.
+
+                        You can also follow the <a href="">@reactjs account</a> on Twitter, but you won’t miss anything
+                        essential if you only read the blog.
+
+                        Not every React release deserves its own blog post, but you can find a detailed changelog for
+                        every
+                        release in the <a href="">CHANGELOG.md file in the React repository</a>, as well as on the <a
+                            href="">Releases</a> page.
+                    </p>
+                </section>
+                <section id="Versioned_Documentation" class="main-section">
+                    <header>
+                        <h2>
+                            Versioned Documentation
+                        </h2>
+                    </header>
+                    <p>
+                        This documentation always reflects the latest stable version of React. Since React 16, you can
+                        find
+                        older versions of the documentation on a <a href="">separate page</a>. Note that documentation
+                        for
+                        past
+                        versions is snapshotted at the time of the release, and isn’t being continuously updated.
+                    </p>
+                </section>
+                <section id="Something_Missing?" class="main-section">
+                    <header>
+                        <h2>
+                            Something Missing?
+                        </h2>
+                    </header>
+                    <p>
+                        If something is missing in the documentation or if you found some part confusing, please <a
+                            href="">file
+                            an issue for the documentation repository</a> with your suggestions for improvement, or
+                        tweet at
+                        the
+                        <a href="">@reactjs account</a>. We love hearing from you!
+                    </p>
+                </section>
             </div>
-        </nav>
-
-        <!-- sections -->
-
-        <section class="main-section">
-            <header>
-
-            </header>
-        </section>
-        <section class="main-section"></section>
-        <section class="main-section"></section>
-        <section class="main-section"></section>
-        <section class="main-section"></section>
+        </div>
     </main>
 </body>
 <script src="./scripts.js" type="text/javascript"></script>

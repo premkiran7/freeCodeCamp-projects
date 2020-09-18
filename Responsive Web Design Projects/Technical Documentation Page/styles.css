@@ -37,9 +37,9 @@ a:hover {
   --overlay-color: #6d6d6d;
 }
 
-/* navbar */
+/* top-navbar */
 
-#navbar {
+#top-navbar {
   display: grid;
   height: 10vh;
   position: fixed;
@@ -48,46 +48,64 @@ a:hover {
   grid-template-columns: 2fr 8fr;
 }
 
-#navbar header {
+#top-navbar header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   height: 10vh;
 }
 
-#navbar header .logo {
+#top-navbar header .logo {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100%;
 }
 
-#navbar header .logo img {
+#top-navbar header .logo img {
   height: 100%;
 }
 
-#navbar a {
+/* rotate image */
+
+.rotate {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#top-navbar a {
   color: var(--secondary-color);
   font-size: 1.3rem;
 }
 
-#navbar a:hover {
+#top-navbar a:hover {
   color: var(--third-color);
 }
 
 /* accordion/side nav bar */
 
-#side-navbar {
+#navbar {
   width: 20rem;
-  padding: 9vh 0 0 0;
+  padding: 5rem 0 0 0;
   height: 100%;
   overflow: auto;
+  /* border: 3px solid red; */
   background-color: #eee;
 }
 
 .accordion-container {
   background-color: #f7f7f7;
+  /* border: 3px solid greenyellow; */
   width: 100%;
+  overflow: auto;
 }
 
 .accordion-item {
@@ -141,3 +159,85 @@ a:hover {
 }
 
 /* sections */
+
+.container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  /* border: 3px solid blue; */
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 9fr;
+}
+
+.section-container {
+  overflow: auto;
+  margin: 5rem 0 0 0;
+  background-color: #ffffff;
+}
+
+.main-section {
+  padding: 2rem 3rem;
+  border-bottom: 0.1px solid var(--overlay-color);
+}
+
+.main-section h1 {
+  font-size: 3rem;
+}
+
+.main-section h2,
+.main-section h3,
+.main-section h4 {
+  padding: 1rem 0 1rem 0;
+}
+
+.main-section p {
+  padding: 2rem 0 2rem 0;
+  line-height: 1.5;
+}
+
+.main-section a {
+  text-decoration: none solid rgb(26, 26, 26);
+  text-decoration-color: #1a1a1a26;
+  background-color: #bbeffd4d;
+}
+
+.main-section a:hover {
+  text-decoration: underline;
+  background-color: #bbeffd;
+}
+
+.main-section ul {
+  list-style: outside;
+  padding: 1rem 0 2rem 2rem;
+  line-height: 1.3;
+}
+
+.main-section li {
+  padding: 1rem 0 0 0;
+}
+
+/* media queries */
+
+@media (max-width: 850px) {
+  #top-navbar a {
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+  }
+
+  .accordion-header h4::after {
+    position: absolute;
+    left: 25rem;
+  }
+
+  #navbar {
+    width: 100%;
+  }
+
+  .container {
+    display: grid;
+    /* border: 3px solid blue; */
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 9fr;
+  }
+}
