@@ -1,0 +1,61 @@
+/* global settings */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --primary-color: white;
+  --secondary-color: black;
+  --tertiary-color: #1ab122;
+  --other-color: #f7f8f3;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* navbar */
+
+#navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: ". nav-links";
+  position: fixed;
+  padding: 1rem 0;
+  width: 100%;
+  background-color: var(--other-color);
+}
+
+#navbar ul {
+  display: flex;
+  justify-content: center;
+  grid-area: nav-links;
+}
+
+#navbar ul li {
+  padding: 0.5rem 2rem;
+}
+
+#navbar ul li a {
+  padding: 0.5rem;
+  color: var(--tertiary-color);
+}
+
+#navbar ul li a:hover {
+  border-radius: 1rem;
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+}
+
+/* welcome section */
