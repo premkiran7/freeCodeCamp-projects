@@ -14,7 +14,8 @@
   --primary-color: white;
   --secondary-color: black;
   --tertiary-color: #1ab122;
-  --other-color: #f7f8f3;
+  --quaternary-color: #f7f8f3;
+  --quinary-color: #5e6166;
 }
 
 ul {
@@ -23,6 +24,22 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+section {
+  margin: 0 5rem;
+}
+
+section h2 {
+  color: var(--tertiary-color);
+  font-size: 3rem;
+  padding: 3rem;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+p {
+  line-height: 1.5;
 }
 
 /* navbar */
@@ -34,7 +51,7 @@ a {
   position: fixed;
   padding: 1rem 0;
   width: 100%;
-  background-color: var(--other-color);
+  background-color: var(--quinary-color);
 }
 
 #navbar ul {
@@ -49,13 +66,93 @@ a {
 
 #navbar ul li a {
   padding: 0.5rem;
-  color: var(--tertiary-color);
+  font-size: 1.5rem;
+  color: var(--primary-color);
 }
 
 #navbar ul li a:hover {
-  border-radius: 1rem;
+  border-radius: 5rem;
   color: var(--primary-color);
   background-color: var(--tertiary-color);
 }
 
 /* welcome section */
+
+#welcome-section {
+  margin: 0;
+  padding: 7rem 5rem 0 5rem;
+  z-index: -1;
+  height: 100vh;
+}
+
+#welcome-section h1 {
+  color: var(--tertiary-color);
+  font-size: 5rem;
+}
+
+#welcome-section span {
+  color: var(--secondary-color);
+  display: block;
+}
+
+#welcome-section h1::after {
+  content: "";
+  margin: 1rem 0 0 0;
+  position: absolute;
+  border-radius: 5rem;
+  background-color: var(--tertiary-color);
+  width: 7rem;
+  height: 0.3rem;
+}
+
+#welcome-section p {
+  margin: 7rem 0;
+  color: var(--quinary-color);
+  font-size: 1.5rem;
+}
+
+/* about */
+
+#about {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10rem;
+}
+
+#about p {
+  color: var(--quinary-color);
+  font-size: 1.5rem;
+  text-justify: inter-word;
+}
+
+/* skills */
+
+#skills {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10rem;
+}
+
+#skills .img-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+#skills .img-container .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* #skills img:hover {
+  background: content-box
+    radial-gradient(var(--tertiary-color), var(--secondary-color));
+} */
+
+/* projects */
