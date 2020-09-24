@@ -17,3 +17,7 @@ A collection of projects made while working on [freeCodeCamp certifications](htt
 | S.No | Project | Feedback & Help |
 | ---- | ------- | --------------- |
 | 1. | Palindrome Checker | NA |
+| 2. | Roman Numeral Converter | NA |
+| 3. | Caesars Cipher | NA |
+| 4. | Telephone Number Validator | NA |
+| 5. | Cash Register | NA |
