@@ -18,3 +18,4 @@ A collection of projects made while working on [freeCodeCamp certifications](htt
 
 | S.No | Project | Feedback & Help |
 | ---- | ------- | --------------- |
+| 1. | Palindrome Checker | NA |
