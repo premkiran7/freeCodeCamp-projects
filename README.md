@@ -2,7 +2,7 @@
 
 A collection of projects made while working on [freeCodeCamp certifications](https://www.freecodecamp.org/learn/)
 
-### Responsive Web Design Projects
+### [Responsive Web Design Projects](https://www.freecodecamp.org/certification/premkiran7/responsive-web-design) :v: :star2:
 
 | S.No | Project | Feedback & Help |
 | ---- | ------- | --------------- |
@@ -11,8 +11,6 @@ A collection of projects made while working on [freeCodeCamp certifications](htt
 | 3. | [Product Landing Page](https://codepen.io/premkiran7/full/VwaGZod) | [FCC Discussion Forum](https://forum.freecodecamp.org/t/looking-for-feedback-on-my-product-landing-page/421253) |
 | 4. | [Technical Documentation Page](https://codepen.io/premkiran7/pen/ZEWModP) | [FCC Discussion Forum](https://forum.freecodecamp.org/t/feedback-required-on-technical-documentation-page/421515) |
 | 5. | [Personal Portfolio Webpage](https://codepen.io/premkiran7/pen/MWyPqeE) | [FCC Discussion Forum](https://forum.freecodecamp.org/t/feedback-required-on-personal-portfolio-webpage/422004) |
-
-> [View my Responsive Web Design Certification](https://www.freecodecamp.org/certification/premkiran7/responsive-web-design) :v: :star2:
 
 ### JavaScript Algorithms and Data Structures Projects
 
