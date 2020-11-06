@@ -10,7 +10,7 @@ A collection of projects made while working on [freeCodeCamp certifications](htt
 | 2. | [Survey Form](https://rwb-survey-form.herokuapp.com/) | [FCC Discussion Forum](https://forum.freecodecamp.org/t/looking-for-feedback-on-my-second-project-survey-form/420988/5) |
 | 3. | [Product Landing Page](https://rwb-product-landing-page.herokuapp.com/) | [FCC Discussion Forum](https://forum.freecodecamp.org/t/looking-for-feedback-on-my-product-landing-page/421253) |
 | 4. | [Technical Documentation Page](https://rwb-technical-docs-page.herokuapp.com/) | [FCC Discussion Forum](https://forum.freecodecamp.org/t/feedback-required-on-technical-documentation-page/421515) |
-| 5. | [Personal Portfolio Webpage](https://rwb-personal-portfolio-webpage.herokuapp.com/) | [FCC Discussion Forum](https://forum.freecodecamp.org/t/feedback-required-on-personal-portfolio-webpage/422004) |
+| 5. | [Personal Portfolio Webpage](https://premkiran7.netlify.app/) | [FCC Discussion Forum](https://forum.freecodecamp.org/t/feedback-required-on-personal-portfolio-webpage/422004) |
 
 ### JavaScript Algorithms and Data Structures Projects
 
