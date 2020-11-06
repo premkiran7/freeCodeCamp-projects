@@ -1,0 +1,12 @@
+{
+  "name": "tribute-page",
+  "version": "1.0.0",
+  "description": "Tribute Page",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "^10.0.1"
+  },
+  "author": "Prem Kiran"
+}

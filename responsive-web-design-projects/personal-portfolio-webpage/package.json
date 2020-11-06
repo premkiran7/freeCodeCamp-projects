@@ -1,0 +1,12 @@
+{
+  "name": "personal-portfolio-webpage",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Webpage",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "^10.0.1"
+  },
+  "author": "Prem Kiran"
+}

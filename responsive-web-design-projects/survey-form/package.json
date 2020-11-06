@@ -1,0 +1,12 @@
+{
+  "name": "survey-form",
+  "version": "1.0.0",
+  "description": "Survey Form",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {
+    "serve": "^10.0.1"
+  },
+  "author": "Prem Kiran"
+}
