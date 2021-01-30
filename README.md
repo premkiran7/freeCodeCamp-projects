@@ -12,7 +12,7 @@ A collection of projects made while working on [freeCodeCamp certifications](htt
 | 4. | [Technical Documentation Page](https://rwb-technical-docs-page.herokuapp.com/) | [FCC Discussion Forum](https://forum.freecodecamp.org/t/feedback-required-on-technical-documentation-page/421515) |
 | 5. | [Personal Portfolio Webpage](https://premkiran7.netlify.app/) | [FCC Discussion Forum](https://forum.freecodecamp.org/t/feedback-required-on-personal-portfolio-webpage/422004) |
 
-### JavaScript Algorithms and Data Structures Projects
+### [JavaScript Algorithms and Data Structures Projects](https://www.freecodecamp.org/certification/premkiran7/javascript-algorithms-and-data-structures) :v: :star2:
 
 | S.No | Project | Feedback & Help |
 | ---- | ------- | --------------- |
